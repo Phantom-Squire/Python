@@ -80,7 +80,7 @@ def tic_tac_toe():
         p2()
         print()
 
-    if input("Play again (y/n)\n") == "y":
+    if input("Play again (Y/N)\n") == "Y":
         print()
         tic_tac_toe()
 
