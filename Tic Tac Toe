@@ -67,14 +67,14 @@ def tic_tac_toe():
         end = check_board()
         if end == True:
             break
-        print("Player 1: Choose Where To Place Your Cross")
+        print("Player 1: Choose Where To Place Your X")
         p1()
         print()
         draw()
         end = check_board()
         if end == True:
             break
-        print("Player 2: Choose Where To Place Your Nought")    
+        print("Player 2: Choose Where To Place Your O")    
         p2()
         print()
 
