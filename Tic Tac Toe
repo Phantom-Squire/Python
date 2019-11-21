@@ -59,7 +59,9 @@ def tic_tac_toe():
             if board[a] == "X" or board[a] == "O":
                 count += 1
             if count == 9:
-                print("The game ends in a Tie\n")
+                print("Tie")
+                print("")
+                print("Will You Like To PLay Again?\n")
                 return True
 
     while not end:
