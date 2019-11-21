@@ -1,0 +1,18 @@
+order = []
+print("Jack In The Box")
+print()
+print("[1] Show Menu")
+print("[2] Add Item")
+print("[3] Remove Item")
+print("[4] Show Cart")
+print("[5] Checkout")
+print()
+
+option = input("Action: ")
+if int (option) == 1:
+ print("Menu: ")
+print("[A] Hamburgers ~ 3.00")
+print("[B] Ice Cream ~ 1.00")
+print("[C] Chips ~ 1.89")
+print("[D] Sodas ~ 1.00")
+print()
