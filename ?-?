@@ -1,2 +1,2 @@
-num1 = int(input("Enter A Name: ")
-print(num1)
+item1 = input("Enter A Name: ")
+print(item1 + " Won")
