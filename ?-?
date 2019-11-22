@@ -1,2 +1,0 @@
-item1 = input("Enter A Name: ")
-print(item1 + " Won")
