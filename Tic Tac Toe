@@ -1,5 +1,6 @@
 print("Tic-Tac-Toe")
-# print("Tic-Tac-Toe")
+Player1 = input("Enter A Name: ")
+Player2 = input("Enter A Name: ")
 def tic_tac_toe():
     board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     end = False
@@ -47,12 +48,12 @@ def tic_tac_toe():
         count = 0
         for a in win_commbinations:
             if board[a[0]] == board[a[1]] == board[a[2]] == "X":
-                print("Player 1 Wins!\n")
+                print(Player1 + " Wins!\n")
                 print("Congratulations!\n")
                 return True
 
             if board[a[0]] == board[a[1]] == board[a[2]] == "O":
-                print("Player 2 Wins!\n")
+                print(Player1 + " Wins!\n")
                 print("Congratulations!\n")
                 return True
         for a in range(9):
@@ -69,14 +70,14 @@ def tic_tac_toe():
         end = check_board()
         if end == True:
             break
-        print("Player 1: Choose Where To Place Your X")
+        print(Player1 + ": Choose Where To Place Your X")
         p1()
         print()
         draw()
         end = check_board()
         if end == True:
             break
-        print("Player 2: Choose Where To Place Your O")    
+        print(Player2 + ": Choose Where To Place Your O")    
         p2()
         print()
 
