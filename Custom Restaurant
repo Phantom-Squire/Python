@@ -21,3 +21,18 @@ option = input("Action: ")
 if int (option) == 2:
  print("Add Items:")
 print()
+
+option = input("Action: ")
+if int (option) == 3:
+ print("Remove Items:")
+print()
+
+option = input("Action: ")
+if int (option) == 4:
+ print("Show Cart:")
+print()
+
+option = input("Action: ")
+if int (option) == 5:
+ print("Check-Out:")
+print()
