@@ -1,3 +1,4 @@
+  
 order = []
 print("Jack In The Box")
 print()
@@ -16,3 +17,20 @@ print("[B] ")
 print("[C] ")
 print("[D] ")
 print()
+
+option = input("Action: ")
+if int (option) == 2:
+ print("Add Items: ")
+
+option = input("Action: ")
+if int (option) == 3:
+ print("Remove Items: ")
+
+option = input("Action: ")
+if int (option) == 4:
+ print("Show Cart: ")
+
+
+option = input("Action: ")
+if int (option) == 5:
+ print("Check-Out: ")
