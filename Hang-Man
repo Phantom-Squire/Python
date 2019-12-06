@@ -11,6 +11,5 @@ while (guess in Code) == False:
 else:
  print("Those Where All Your Trys")
  print("The Word Was " + Word)
-
-  continue
-print("The Code Was Cracked By " + Player)
+ 
+ print("The Code Was Cracked By " + Player)
