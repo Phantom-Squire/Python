@@ -11,27 +11,13 @@ print()
 option = input("Action: ")
 if int (option) == 1:
  print("Menu:")
-print("[A] Item ~ Price")
-print("[B] Item ~ Price")
-print("[C] Item ~ Price")
-print("[D] Item ~ Price")
+ print("[A] Item ~ Price")
+ print("[B] Item ~ Price")
+ print("[C] Item ~ Price")
+ print("[D] Item ~ Price")
 print()
 
 option = input("Action: ")
 if int (option) == 2:
- print("Witch Items Will You Like To Add:")
+ print("Add Items:")
 print()
-
-option = input("Action: ")
-if int (option) == 3:
- print("Witch Items Will You Like To Remove:")
-print()
-
-option = input("Action: ")
-if int (option) == 4:
- print("Show Cart:")
-
-print()
-option = input("Action: ")
-if int (option) == 5:
- print("Check-Out:")
