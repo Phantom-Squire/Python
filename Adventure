@@ -1,0 +1,75 @@
+print("You are about to embark on a journey to a castle")
+answer = input("Which path will you take? Left or right?(lowercase anything you type in)")
+Left = "left"
+Right = "right"
+Password = "open sesame"
+if answer == Left:
+    print("You are taking the journey the long way!")
+    answer = input("Now which path will you take? Left or right?")
+    if answer == Left:
+        print("You are heading near the sea.")
+        answer = input("Now which path will you take? Left or right?")
+        if answer ==Left:
+            print("It looks you're heading into the forest. You see a castle ahead.")
+            answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+            if answer == Password:
+                print("Congratulations! You're inside the castle! You won the game!")
+            else:
+                while True:
+                    answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+                    if answer == Password:
+                        print("Congratulations! You're inside the castle! You won the game!")
+        else:
+            print("All of a sudden, you realize that someone is hunting you to eat, but you are too late.")
+    else:
+        print ("Looks like there is a pack of wolves.")
+        answer = input("Which way? Left or right?")
+        if answer == Left:
+            print("Oh no! You go too close to the wolves, and you are eaten up!")
+        else:
+            print("You are heading away from the wolf pack, and you see a castle! Almost there!")
+            answer = input("Which path? Left or right?")
+            if answer == Right:
+                print("It looks you're heading into the forest. You see a castle ahead.")
+                answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+                if answer == Password:
+                    print("Congratulations! You're inside the castle! You won the game!")
+                else:
+                    while True:
+                        answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+                        if answer == Password:
+                            print("Congratulations! You're inside the castle! You won the game!")
+            else:
+                print("You lost your way to the castle, and you die in the forest.")
+else:
+    print("You are taking the journey the short way.")
+    answer = input("Which path will you take? Left or right?")
+    if answer == Left:
+        print("You are heading near the sea.")
+        answer = input("Now which path will you take? Left or right?")       
+        if answer == Left:
+            print("You are heading to the castle.")
+            answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+            if answer == Password:
+                print("Congratulations! You're inside the castle! You won the game!")
+            else:
+                while True:
+                    answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+                    if answer == Password:
+                        print("Congratulations! You're inside the castle! You won the game!")
+
+        else:
+            print("You died on the way from getting a disease.")
+    else:
+        print("It looks like you are near the end of the journey.")
+        answer = input("Which path will you take? Left or right?")
+        if answer == Left:
+            print("You died from exhaustion.")
+        else:
+            answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+            if answer == Password:
+                print("Congratulations! You're inside the castle! You won the game!")
+            else:
+                answer = input("You are at the castle, but there is a pasword that you need to say to get in.")
+                if answer == Password:
+                	print("Congratulations! You're inside the castle! You won the game!")
