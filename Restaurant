@@ -19,13 +19,12 @@ print()
 
 option = input("Action: ")
 if int (option) == 2:
- print("Add Items:")
+ print("Witch Items Will You Like To Add:")
 print()
 
 option = input("Action: ")
 if int (option) == 3:
- print("Remove Items:")
- print("Witch Items Will You Like To Add:")
+ print("Witch Items Will You Like To Remove:")
 print()
 
 option = input("Action: ")
