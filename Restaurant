@@ -1,4 +1,3 @@
-  
 order = []
 print("Restaurant Name Goes Here")
 print()
