@@ -1,0 +1,93 @@
+#game of life after J.H.Conway
+import numpy as np #importing the powerful numpy math library
+import replit
+import time
+
+symbol = 'O'    #symbol for a live cell
+empty = ' '     #symbol for a dead cell
+stop_each = False #set to true to stop after each generation
+waittime = 0.6  #wait time between generations to see it
+
+w, h = 80, 36;      #the play field width, height, its a wrap around universe
+
+# set an empty universe with two sets and one screen buffer for the symbols
+u1 = [[0 for x in range(w)] for y in range(h)]
+u2 = [[0 for x in range(w)] for y in range(h)]
+sc = [[empty for x in range(w)] for y in range(h)]
+
+gen = 1  #counts the generations
+lc = 0   #life cell counter
+cells = w*h # total number of cells
+
+#preset the universe1 with a random set of 400 starting elements
+for i in range(1,400):
+  x = np.random.random_integers(0,w-1)
+  y = np.random.random_integers(0,h-1)
+  u1[y][x] = 1
+  sc[y][x] = symbol
+  lc += 1
+
+while True: #forever run the Life simulation loop...
+  
+  #clear the terminal output window
+  replit.clear()
+  
+  #calculate the percentage of cells that are alive
+  lcp = lc/cells * 100.0
+  lcps = format(lcp, '.2f')  #format as a string with two decimal places
+  
+  #write out the header line with life counters
+  print ('Generation:', gen, ', life cells:',lc,',  life%:',lcps)
+  
+  #now print the current array of life elements line by line
+  for y in range (h):
+    line = ''.join(sc[y])
+    print (line)
+  
+  #if the game is set to stop after each generation, prompt for a keypress
+  if stop_each: input("Press Enter to continue...")
+  else: time.sleep(waittime)  #otherwise, just wait a bit
+  
+  #now lets calculate the next generation
+  
+  u2 = [[0 for x in range(w)] for y in range(h)]  # clear universe universe2
+  sc = [[empty for x in range(w)] for y in range(h)] # clear screen buffer
+  lc = 0 #reset life cell counter
+  
+  #calculate the next generation and save into universe2
+  for x in range (w):
+    for y in range (h):
+      
+       up = y-1
+       if up<0: up = h-1
+       down = y+1
+       if down >= h: down=0
+       
+       left = x-1
+       if left<0: left = w-1
+       right = x+1 
+       if right>= w: right = 0 
+       
+       neighbors  = u1[up][left] + u1[up][x] + u1[up][right]
+       neighbors += u1[y][left] + u1[y][right]
+       neighbors += u1[down][left] + u1[down][x] + u1[down][right]
+       
+       if (u1[y][x] == 1):  #if i am alive
+         if (2 <= neighbors <= 3): u2[y][x] = 1 #survive in u2
+       else: #dead cell
+         if (neighbors == 3): u2[y][x] = 1 #spawn new in u2
+         
+       if (u2[y][x] == 1): 
+         sc[y][x] = symbol #copy to the screen
+         lc += 1 #life counter
+  
+  #copy the new universe2 to the old universe1, dump code, just to show it explicitly
+  for x in range (w):
+    for y in range (h):
+      u1[y][x] = u2[y][x]
+      
+  gen+=1 #advance the generation counter
+  
+  #loop again for the next generation...
+  
+print('end')
