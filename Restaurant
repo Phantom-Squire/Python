@@ -1,5 +1,5 @@
 order = []
-print("Restaurant Name Goes Here")
+print("Jack In The Box")
 print()
 print("[1] Show Menu")
 print("[2] Add Item")
@@ -10,28 +10,28 @@ print()
 
 option = input("Action: ")
 if int (option) == 1:
- print("Menu: ")
-print("[A] Item ~ Price")
-print("[B] Item ~ Price")
-print("[C] Item ~ Price")
-print("[D] Item ~ Price")
+ print("Menu:")
+print("[A] Tacos ~ 1.50")
+print("[B] Hamburger ~ 2.00")
+print("[C] Ice-Cream ~ 1.25")
+print("[D] Coke ~ 1.50")
 print()
 
 option = input("Action: ")
 if int (option) == 2:
- print("Add Items: ")
+ print("Add Items:")
 print()
 
-option = input("Action: ")
-if int (option) == 3:
- print("Remove Items: ")
-print()
+# option = input("Action: ")
+# if int (option) == 3:
+#  print("Remove Items:")
+# print()
 
-option = input("Action: ")
-if int (option) == 4:
- print("Show Cart: ")
+# option = input("Action: ")
+# if int (option) == 4:
+#  print("Show Cart:")
 
-print()
-option = input("Action: ")
-if int (option) == 5:
- print("Check-Out: ")
+# print()
+# option = input("Action: ")
+# if int (option) == 5:
+#  print("Check-Out:")
