@@ -1,6 +1,6 @@
 Word = input("Enter A Word: ");
-Try= input("Enter A Amount Of Trys To Get The Anser: ");
-Player = input("Enter Your Name: ");
+Try = input("Enter A Amount Of Trys To Get The Anser: ");
+Player = input("Enter Your Player's Name: ");
 Trys =  (Try)
 Code = (Word)
 guess = input("What Word Do You Want To Guess? ") 
