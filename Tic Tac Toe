@@ -26,7 +26,7 @@ def player_choice():
             print ("No Winner")
             return False
             
-        player_1=input("Player 1 please select your slot:")
+        player_1 = input(Player1 + "- Select Your Slot: ")
         if board[int(player_1)] == "O":
             print("Hey " + Player1 + ", Thats slot had been already taken.")
         elif board[int(player_1)] == "X":
@@ -67,11 +67,11 @@ def player_choice():
             print ("No Winner")
             return False
 
-        player_2=input("Player 2 please select your slot:")
+        player_2 = input("Player 2 please select your slot:")
         if board[int(player_2)] == "O":
-            print ("Hey Player 2!, Thats slot had been already taken.")
+            print ("Hey " + Player2 + "Thats slot had been already taken.")
         elif board[int(player_2)] == "X":
-            print ("Hey Player 2!, Thats slot had been already taken.")
+            print ("Hey " + Player2 + "Thats slot had been already taken.")
         else:
             board[int(player_2)] = "O"        
         board_tally()
