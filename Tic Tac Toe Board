@@ -1,3 +1,0 @@
-print("Tic-Tac-Toe")
-Player1 = input("Enter A Name: ")
-Player2 = input("Enter A Name: ")
