@@ -1,5 +1,6 @@
 Word = input("Enter A Word: ");  
-Player = input("Enter Your Name: ");  
+Player = input("Enter Your Name: ");
+Trys =  (3)
 Code = (Word)
 guess = input("What Word Do You Want To Guess? ") 
 while (guess in Code) == False:
