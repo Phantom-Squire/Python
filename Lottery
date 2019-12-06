@@ -1,1 +1,14 @@
-???
+import random
+Play = input("Choose A Number From 1-10: ");
+
+number = random.randint (1, 10);
+print(Number) 
+
+myGuess = 11
+
+while myGuess != myNumber:
+  myGuess = int(input("What number am I thinking of?"))
+  if myGuess != myNumber:
+    print ("Bad luck, try again")
+  else:
+    print ("Good! You guessed correctly!")
