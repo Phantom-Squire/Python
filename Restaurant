@@ -13,9 +13,9 @@ option = input("Action: ")
 if int (option) == 1:
  print("Menu: ")
 print("[A] Tacos ~ 1.50")
-print("[B] ")
-print("[C] ")
-print("[D] ")
+print("[B] Hamburger ~ 2.00")
+print("[C] Ice-Cream ~ 1.25")
+print("[D] Coke ~ 1.50")
 print()
 
 option = input("Action: ")
