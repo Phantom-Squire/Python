@@ -1,90 +1,124 @@
-print("Tic-Tac-Toe")
+print ("Tic-Tac-Toe")
 Player1 = input("Enter A Name: ")
 Player2 = input("Enter A Name: ")
-def tic_tac_toe():
-    board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    end = False
-    win_commbinations = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6))
+print(Player1 + ": X")
+print(Player2 + ": O")
+print ("Enjoy the game!")
 
-    def draw():
-        print(board[0],"|",board[1],"|",board[2])
-        print("---------")
-        print(board[3],"|",board[4],"|",board[5])
-        print("---------")
-        print(board[6],"|",board[7],"|",board[8])
-        print()
+board = [0,1,2,3,4,5,6,7,8]
 
-    def p1():
-        n = choose_number()
-        if board[n] == "X" or board[n] == "O":
-            print("\nYou can't go there. Try again")
-            p1()
+def board_tally():
+    print ("-------------")
+    print ("| " + str(board[0]) + " | " + str(board[1]) + " | " + str(board[2]) + " | ")
+    print ("-------------")
+    print ("| " + str(board[3]) + " | " + str(board[4]) + " | " + str(board[5]) + " | ")
+    print ("-------------")
+    print ("| " + str(board[6]) + " | " + str(board[7]) + " | " + str(board[8]) + " | ")
+    print ("-------------")
+
+#board_tally()
+
+def player_choice():
+    sum_X_0 = 0
+    while True:
+        
+        count_O = board.count(": X")
+        count_X = board.count(": O")
+        sum_X_0 = count_O + count_X
+        if sum_X_0 == 9:
+            print ("No Winner")
+            return False
+            
+        player_1=input("Player 1 please select your slot:")
+        if board[int(player_1)] == "O":
+            print("Hey " + Player1 + ", Thats slot had been already taken.")
+        elif board[int(player_1)] == "X":
+            print("Hey " + Player1 + ", Thats slot had been already taken.")
         else:
-            board[n] = "X"
+            board[int(player_1)] = "X"                        
+        board_tally()
 
-    def p2():
-        n = choose_number()
-        if board[n] == "X" or board[n] == "O":
-            print("\nYou can't go there. Try again")
-            p2()
+        if board[0:3] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[3:6] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[6:9] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[0:9:4] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[2:7:2] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[0:7:3] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[1:8:3] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        if board[2:9:3] == ["X", "X", "X"]:
+            print(Player1 + " Wins!")
+            break
+        
+        count_O = board.count("X")
+        count_X = board.count("O")
+        sum_X_0 = count_O + count_X
+        if sum_X_0 == 9:
+            print ("No Winner")
+            return False
+
+        player_2=input("Player 2 please select your slot:")
+        if board[int(player_2)] == "O":
+            print ("Hey Player 2!, Thats slot had been already taken.")
+        elif board[int(player_2)] == "X":
+            print ("Hey Player 2!, Thats slot had been already taken.")
         else:
-            board[n] = "O"
+            board[int(player_2)] = "O"        
+        board_tally()
 
-    def choose_number():
-        while True:
-            while True:
-                a = input()
-                try:
-                    a  = int(a)
-                    a -= 1
-                    if a in range(0, 9):
-                        return a
-                    else:
-                        print("\nThat's not on the board. Try again")
-                        continue
-                except ValueError:
-                   print("\nThat's not a number. Try again")
-                   continue
-
-    def check_board():
-        count = 0
-        for a in win_commbinations:
-            if board[a[0]] == board[a[1]] == board[a[2]] == "X":
-                print(Player1 + " Wins!\n")
-                print("Congratulations!\n")
-                return True
-
-            if board[a[0]] == board[a[1]] == board[a[2]] == "O":
-                print(Player1 + " Wins!\n")
-                print("Congratulations!\n")
-                return True
-        for a in range(9):
-            if board[a] == "X" or board[a] == "O":
-                count += 1
-            if count == 9:
-                print("Tie")
-                print("")
-                print("Will You Like To PLay Again?\n")
-                return True
-
-    while not end:
-        draw()
-        end = check_board()
-        if end == True:
+        if board[0:3] == ["O", "O", "O"]:
+            print(Player2 + " Wins!")
             break
-        print(Player1 + ": Choose Where To Place Your X")
-        p1()
-        print()
-        draw()
-        end = check_board()
-        if end == True:
+        if board[3:6] == ["O", "O", "O"]:
+            print(Player2 + " Wins!")
             break
-        print(Player2 + ": Choose Where To Place Your O")    
-        p2()
-        print()
+        if board[6:9] == ["O", "O", "O"]:
+            print(Player2 + " Wins!")
+            break
+        if board[1:9:4] == ["O", "O", "O"]:
+            print(Player2 + " Wins!")
+            break
+        if board[2:7:2] == ["O", "O", "O"]:
+            print(Player2 + " Wins!")
+            break
+        if board[0:7:3] == ["O", "O", "O"]:
+            print(Player2 + " Wins")
+            break
+        if board[1:8:3] == ["O", "O", "O"]:
+            print(Player2 + " Wins")
+            break
+        if board[2:9:3] == ["O", "O", "O"]:
+            print(Player2 + " Wins")
+            break
+        
+#player_choice()
 
-    if input("Play again (Y/N)\n") == "Y":
-        print()
-        tic_tac_toe()
+def continue_game():
+    #player_choice()
+    #user = "yes"
+    #player1_score = 0
+    while True:
+        board[0:9] = [0,1,2,3,4,5,6,7,8]
+        board_tally()
+        player_choice()
+        print ("Do You Want To Play Again? Y/N:")
+        user = input("")
+        if user == "Y":
+            True
+        elif user == "N":
+            break
 
-tic_tac_toe()
+continue_game()
