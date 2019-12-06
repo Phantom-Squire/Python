@@ -8,5 +8,9 @@ while (guess in Code) == False:
   print("Your Input is: " + guess)
   print("Wrong! Guess Again~")
   guess = input("Try Again: What word do you guess? ") 
+else:
+ print("Those Where All Your Trys")
+ print("The Word Was " + Word)
+
   continue
 print("The Code Was Cracked By " + Player)
