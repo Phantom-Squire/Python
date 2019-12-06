@@ -7,8 +7,8 @@ print(Number)
 Guess1 = (Play)
 
 while Guess1 != myNumber:
-  myGuess = int(input("What number am I thinking of?"))
-  if Guess1 != Number:
-    print ("Bad luck, try again")
+  myGuess = input("Choose A Number From 1-10: ")
+  if Guess1 = Number:
+    print("Good! You guessed correctly!")
   else:
-    print ("Good! You guessed correctly!")
+    print("Bad luck, try again")
