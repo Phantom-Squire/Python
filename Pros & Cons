@@ -1,3 +1,5 @@
-print("[1] Show Menu")
+print("Some Pros & Cons Of A Solusion: ")
+Pros = input("")
+Cons = input("")
 Pros = input("")
 Cons = input("")
