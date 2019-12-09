@@ -4,11 +4,8 @@ Play = input("Choose A Number From 1-10: " );
 Number = random.randint (1, 10);
 print(Number) 
 
-Guess1 = (Play)
-
-while Guess1 != myNumber:
-  myGuess = input("Choose A Number From 1-10: ")
-  if Guess1 = Number:
+while Guess1 = Play:
+ if Guess1 = Number:
     print("Good! You guessed correctly!")
   else:
     print("Bad luck, try again")
