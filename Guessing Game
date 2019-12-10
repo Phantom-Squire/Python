@@ -1,0 +1,12 @@
+Choice = input("What Word Do You Choose To Be Guessed? ")
+Words = (Choice + ", Tennis, Guitar, Food, Fun");
+Guess = input("What word do you guess? ") 
+while (Guess in Words)== False:
+  print("Your Input is: " + Guess)
+  print("Wrong! Guess Again~")
+  Guess = input("Try Again: What Word Will You Like To Guess? ")
+
+while (Guess in Words)== True:
+  print("Your Input Is: " + Guess)
+  print("That Was Correct!!!")
+GameOver = input("Try Again? Y/N");
