@@ -1,4 +1,4 @@
-Point = input("Enter A Point: ")
+Point = input("Enter A Point: 1/2x + 4")
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
