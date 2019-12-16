@@ -1,2 +1,2 @@
-Money = input("How Much Money Do You Have: ")  
-print("You Have " + Money + " Dollars")
+print("Welcome To Black-Jack")
+print("You Have " + 100 + "$" + ", How Much Will You Like To Bet")
