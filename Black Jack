@@ -1,0 +1,2 @@
+Money = input("How Much Money Do You Have: ")  
+print("You Have " + Money + " Dollars")
