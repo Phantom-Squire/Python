@@ -1,2 +1,2 @@
 print("Welcome To Black-Jack")
-print("You Have " + 100 + "$" + ", How Much Will You Like To Bet")
+print("You Have " + ??? + ", How Much Will You Like To Bet")
