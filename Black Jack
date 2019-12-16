@@ -1,5 +1,5 @@
 print("Welcome To Black-Jack")
 Money = input("How Much Money Do You Have? ")
-print("You Have " + Money + "$" + ", How Much Will You Like To Bet")
+print("You Have " + Money + "$" + ", How Much Will You Like To Bet? ")
 
 https://www.youtube.com/watch?v=xLhgqPUHoVs
