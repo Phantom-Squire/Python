@@ -5,4 +5,9 @@ player_wins = 0
 
 def Choose_Option():
   user_choice = input("Choose Rock, Paper Or Scissors: ");
-  if user_choice in ["Rock"] 
+  if user_choice in ["Rock"]
+  if user_choice in ["Paper"]
+  if user_choice in ["Scissors"]
+
+
+https://www.youtube.com/watch?v=-JACmC8kabo
