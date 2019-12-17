@@ -1,0 +1,8 @@
+print("Rock, Paper, Scissors")
+
+comp_wins = 0
+player_wins = 0
+
+def Choose_Option():
+  user_choice = input("Choose Rock, Paper Or Scissors: ");
+  if user_choice in ["Rock"] 
