@@ -1,0 +1,11 @@
+Password = input("Enter A Password: ")
+Secret = input("Enter A  Secret Message: ");  
+Guess = input("You Could Only See The Messege If You Enter A Password");
+if (Guess.equals(Password)) {
+	JOptionPane.showMessageDialog(null, Message); 
+}
+else { // 5) If the password does not match, pop-up "INTRUDER!!"
+JOptionPane.showMessageDialog(null, "INTRUDER!!");  
+  }	
+ }
+}
