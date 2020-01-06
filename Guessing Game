@@ -1,4 +1,8 @@
 Choice = input("What Word Do You Choose To Be Guessed? ")
+
+# ?///
+print()
+
 Words = (Choice + ", Tennis, Guitar, Food, Fun");
 Guess = input("What Word Do You Guess? ") 
 while (Guess in Words)== False:
