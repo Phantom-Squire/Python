@@ -1,5 +1,7 @@
 print("Black Jack")
 Money = input("How Much Money Do You Have? ")
 Bet = input("So You Have " + Money + "$" + ", How Much Will You Like To Bet? ")
+Total = Money - Bet
+print(Total)
 
 https://www.youtube.com/watch?v=xLhgqPUHoVs
