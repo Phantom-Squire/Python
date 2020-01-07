@@ -1,13 +1,7 @@
 print("Rock, Paper, Scissors")
-
-comp_wins = 0
-player_wins = 0
-
-def Choose_Option():
-  user_choice = input("Choose Rock, Paper Or Scissors: ");
-  if user_choice in ["Rock"]
-  if user_choice in ["Paper"]
-  if user_choice in ["Scissors"]
-
+Choose = input("Choose Rock, Paper Or Scissors: ");
+["Rock"]
+["Paper"]
+["Scissors"]
 
 https://www.youtube.com/watch?v=-JACmC8kabo
