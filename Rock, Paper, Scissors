@@ -1,7 +1,4 @@
 print("Rock, Paper, Scissors")
 Choose = input("Choose Rock, Paper Or Scissors: ");
-["Rock"]
-["Paper"]
-["Scissors"]
 
 https://www.youtube.com/watch?v=-JACmC8kabo
