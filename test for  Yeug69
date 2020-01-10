@@ -1,7 +1,5 @@
 C1 = input("1st Colour: ")
 C2 = input("2nd Colour: ")
 C3 = input("3rd Colour: ")
-vColours = [C1 + C2 + C3]
-print("Below s my list of Colours: " + vColours)
-
-https://www.reddit.com/r/learnpython/comments/emt9ui/initial_letter_of_colour_colour_help/
+vColours = C1 + " " + C2 + " " + C3
+print("Below Is My List Of Colours: " + vColours)
