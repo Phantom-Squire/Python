@@ -1,0 +1,17 @@
+ option = input("Action: ")
+if int (option) == Red or R:
+
+ option = input("Action: ")
+if int (option) == Blue or B:
+
+ option = input("Action: ")
+if int (option) == Green or G:
+
+ option = input("Action: ")
+if int (option) == Magenta or M:
+
+ option = input("Action: ")
+if int (option) == Orange or O:
+
+ option = input("Action: ")
+if int (option) == Cyan or C:
