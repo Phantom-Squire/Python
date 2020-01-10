@@ -15,11 +15,3 @@ if int (option) == Orange or O:
 
  option = input("Action: ")
 if int (option) == Cyan or C:
-
-
-
-C1 = input("1st Colour: ")
-C2 = input("2nd Colour: ")
-C3 = input("3rd Colour: ")
-
-print(C1 + " "  + C2 + " " + C3)
