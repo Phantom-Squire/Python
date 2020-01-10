@@ -1,0 +1,8 @@
+ 
+vcolours = ['red', 'r', 'blue', 'b', 'green', 'g', 'magenta', 'm', 'orange', 'o', 'cyan', 'c']
+c1 = input('1st colour: ')
+c2 = input('2nd colour: ')
+c3 = input('3rd colour: ')
+print("Below is my list of colours: ")
+
+https://www.reddit.com/r/learnpython/comments/emt9ui/initial_letter_of_colour_colour_help/
