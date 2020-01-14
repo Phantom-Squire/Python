@@ -1,0 +1,3 @@
+Points = 0
+Score = 1 + Points
+print("Score: " + Score);
