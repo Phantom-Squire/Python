@@ -1,1 +1,7 @@
-
+print("Score-Board")
+Team1 = input("Enter Team Name: ")
+Team2 = input("Enter Team Name: ")
+Score1 = 100
+Score2 = 100
+print(Team1 + ": " + Score1)
+print(Team2 + ": " + Score2)
