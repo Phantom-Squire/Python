@@ -1,3 +1,1 @@
-Score = 0
-Score = Score+1
-print("Score: " + Score)
+
