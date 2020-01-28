@@ -1,4 +1,4 @@
-Score = 0
+Points = 0
 print("Correct, The Answer Is ???");
 print("Wrong, The Answer Is ???");
-print("Your Total Score Is " + Score + "/#");
+print("Your Total Score Is " + Points + "/5")
