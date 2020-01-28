@@ -1,3 +1,4 @@
 Score = 0
-Question1 = input("What has to be broken before you can use it? ");
-Answer1 = []
+print("Correct, The Answer Is ???");
+print("Wrong, The Answer Is ???");
+print("Your Total Score Is " + Score + "/#");
