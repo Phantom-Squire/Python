@@ -1,4 +1,4 @@
-Reddit = ['1', '2', '3', '4', '5']
+Reddit = ["1)2)3)4)5)"]
 print(Reddit)
 
 option = input("Witch Riddle Will You Like To Hear: ")
@@ -7,8 +7,3 @@ if int (option) == 1:
  Joke1 = input("Knock Knock - ");
  JokeA = input("Butcher - ");
  print("Butcher Left Leg In, Butcher Left Leg Out")
-
-if int (option) == 2:
-if int (option) == 3:
-if int (option) == 4:
-if int (option) == 5:
