@@ -2,4 +2,3 @@ Points = 0
 Question = input("...? ");
 print("Correct, The Answer Is ???");
 print("Wrong, The Answer Is ???");
-print("Your Total Score Is " + Points + "/5")
