@@ -1,5 +1,5 @@
 Points = 0
-Question = input("What has to be broken before you can use it? ");
+Question = input("...? ");
 print("Correct, The Answer Is ???");
 print("Wrong, The Answer Is ???");
 print("Your Total Score Is " + Points + "/5")
