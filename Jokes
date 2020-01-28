@@ -1,1 +1,8 @@
+Reddit = ['1', '2', '3', '4', '5']
+print(Reddit)
 
+Beggining = input("Witch Riddle Will You Like To Hear: "); 
+
+Joke1 = input("Knock Knock - ");
+JokeA = input("Butcher - ");
+print("Butcher Left Leg In, Butcher Left Leg Out")
