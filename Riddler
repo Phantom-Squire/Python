@@ -1,7 +1,7 @@
-print("[1] ???")
+print("{1} ???")
 print()
 
-option = input("Action: ")
+option = input("Riddle: ")
 if int (option) == 1:
  Riddle1 = input("...? ");
 if Riddle1 == "???":
