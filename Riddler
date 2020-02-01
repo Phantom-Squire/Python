@@ -6,3 +6,9 @@ if Riddle1 == "Two":
 else:
     print("Try Again")
     Points - 1
+
+Riddle? = input("How many sides does a circle have? ");
+if Riddle? == "Two":
+    print("Well Done")
+else:
+    print("Try Again")
