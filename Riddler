@@ -1,6 +1,6 @@
 Points = 0
 Riddle1 = input("...? ");
-if Riddle1 == "Hello":
-    print("Well done")
+if Riddle1 == "???":
+    print("Well Done")
 else:
-    print("Try again")
+    print("Try Again")
