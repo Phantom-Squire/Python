@@ -1,6 +1,14 @@
-Points = 0
-Riddle1 = input("How many sides does a circle have? ");
-if Riddle1 == "Two":
+print("[1] ???")
+print("[2] ???")
+print("[3] ???")
+print("[4] ???")
+print("[5] ???")
+print()
+
+option = input("Action: ")
+if int (option) == 1:
+ Riddle1 = input("...? ");
+if Riddle1 == "???":
     print("Well Done")
 else:
     print("Try Again")
