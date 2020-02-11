@@ -1,5 +1,7 @@
-print("Black Jack")
-Money = input("How Much Money Do You Have? ")
-Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
+print("Welcome To Black Jack")
 
-https://www.youtube.com/watch?v=xLhgqPUHoVs
+Join = input("Will You Like To Play: ")
+
+Money = input("How Much Money Do You Have? ")
+
+Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
