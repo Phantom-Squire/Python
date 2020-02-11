@@ -1,7 +1,10 @@
 print("Welcome To Black Jack")
-
 Join = input("Will You Like To Play: ")
 
-Money = input("How Much Money Do You Have? ")
+if int (Join == "Yes"):
+ print("Menu:")
+print()
 
-Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
+if int (Join == "No"):
+ print("THEN WHY DID YOU CODE ME?!?")
+print()
