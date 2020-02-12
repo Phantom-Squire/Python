@@ -7,5 +7,5 @@ if Join=="Yes" or Join=="Y" or Join=="y" or Join=="yes":
 print()
 
 if Join=="No" or Join=="N" or Join=="n" or Join=="no":
- print("THEN WHY DID YOU CODE ME?!?")
+ print("???")
 print()
