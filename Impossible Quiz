@@ -1,0 +1,11 @@
+print("Impossible Quiz")
+print("[1] Start")
+print("[2] Instractions")
+print("")
+option = input("Action: ")
+if int (option) == 1:
+ print("Start")
+print("")
+option = input("Action: ")
+if int (option) == 1:
+ print("Instractions")
