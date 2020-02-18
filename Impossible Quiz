@@ -9,7 +9,7 @@ print("")
 option = input("Action: ")
 if int (option) == 1:
  print("Start")
-
+ 
 print("")
 
 option = input("Action: ")
