@@ -1,3 +1,6 @@
+Lives = 9
+Name = input("What Is Your Name? ")
+print("Hello " + (Name) + "!")
 print("Impossible Quiz")
 print("[1] Start")
 print("[2] Instractions")
