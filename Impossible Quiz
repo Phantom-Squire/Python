@@ -6,19 +6,17 @@ print("[2] Instractions")
 print("[3] Help")
 
 print("")
-
 option = input("Action: ")
+
 if int (option) == 1:
  print("Start")
  
 print("")
 
-option = input("Action: ")
 if int (option) == 2:
  print("Instractions")
  
 print("")
 
-option = input("Action: ")
 if int (option) == 3:
  print("Help")
