@@ -11,4 +11,4 @@ Start = input("Action: ")
 if int (Start) == 1:
  Opt1 = input("How Many Holes In A Polo? ")
  if int (Opt1) == 4:
-   print()
+   print("Correct")
