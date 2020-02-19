@@ -6,17 +6,9 @@ print("[2] Instractions")
 print("[3] Help")
 
 print("")
-option = input("Action: ")
+Start = input("Action: ")
 
-if int (option) == 1:
- print("Start")
- 
-print("")
-
-if int (option) == 2:
- print("Instractions")
- 
-print("")
-
-if int (option) == 3:
- print("Help")
+if int (Start) == 1:
+ Opt1 = input("How Many Holes In A Polo? ")
+ if int (Opt1) == 4:
+   print()
