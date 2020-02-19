@@ -3,6 +3,7 @@ Name = input("What Is Your Name? ")
 print("Hello " + (Name) + "!" + " Welcome To The Impossible Quiz")
 print("[1] Start")
 print("[2] Instractions")
+print("[3] Help")
 
 print("")
 
@@ -15,3 +16,9 @@ print("")
 option = input("Action: ")
 if int (option) == 2:
  print("Instractions")
+ 
+print("")
+
+option = input("Action: ")
+if int (option) == 3:
+ print("Help")
