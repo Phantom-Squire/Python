@@ -1,0 +1,4 @@
+import random
+Familiy = ("Irene, Jorge, Gerardo, Brian, Xhiomara, Leslie")
+picco = random.randint(Familiy)
+print(picco)
