@@ -1,4 +1,4 @@
-print("Welcome To Black Jack")
+print("Welcome To Black Jack™")
 Join = input("Will You Like To Play: ")
 
 if Join=="Yes" or Join=="Y" or Join=="y" or Join=="yes":
