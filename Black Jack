@@ -5,7 +5,3 @@ if Join=="Yes" or Join=="Y" or Join=="y" or Join=="yes":
  Money = input("How Much Money Do You Have? ")
  Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
 print()
-
-if Join=="No" or Join=="N" or Join=="n" or Join=="no":
- print("???")
-print()
