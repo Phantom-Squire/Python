@@ -1,4 +1,4 @@
 import random
-Familiy = ("Irene, Jorge, Gerardo, Brian, Xhiomara, Leslie")
-picco = random.randint(Familiy)
-print(picco)
+
+Randomizer = random.randint(1,6)
+print(Randomizer)
