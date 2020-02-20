@@ -1,0 +1,2 @@
+Lives = 5
+Word = input("What Word Do You Choose To Be Guessed? ")
