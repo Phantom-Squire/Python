@@ -6,3 +6,5 @@ if Join=="Yes" or Join=="Y" or Join=="y" or Join=="yes":
  Money = input("How Much Money Do You Have? ")
  Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
 print()
+
+https://repl.it/@patrickmacmahon/BlackJack
