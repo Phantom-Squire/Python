@@ -1,0 +1,18 @@
+ void setup(){
+        size(400,600);
+        background(0,255,0);
+        PImage face = loadImage("Sonic.png"); 
+        face.resize(400,600);
+        image(face, 0, 0);
+    }
+
+    void draw(){
+        if(mousePressed){              
+            fill(255,0,0);             
+        }
+        else{                           
+            fill(0,0,255);              
+        }
+        ellipse(100, 200, 100, 100);
+        ellipse(200, 200, 100, 100);
+    }
