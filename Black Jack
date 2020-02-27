@@ -2,7 +2,7 @@ print("Welcome To Black Jack™")
 Name = input("Whats Your Name: ")
 Start = input("Hello " + Name + ", Will You Like To Play: ")
 
-if Join=="Yes" or Join=="Y" or Join=="y" or Join=="yes":
+if Start=="Yes" or Start=="Y" or Start=="y" or Start=="yes":
  Money = input("How Much Money Do You Have? ")
  Bet = input("So You Have " + Money + "$, How Much Will You Like To Bet? ")
 print()
