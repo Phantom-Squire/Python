@@ -1,5 +1,3 @@
-Lives = 5
-print("Welcome to Hangman")
 print("------")
 print("|    |")
 print("|    O")
