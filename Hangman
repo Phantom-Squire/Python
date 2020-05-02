@@ -1,2 +1,8 @@
 Lives = 5
-Word = input("What Word Do You Choose To Be Guessed? ")
+print("Welcome to Hangman")
+print("------")
+print("|    |")
+print("|    O")
+print("|   -|-")
+print("|    |")
+print("|   / \\")
