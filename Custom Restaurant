@@ -1,12 +1,12 @@
 order = []
-print("Restaurant Name Goes Here")
-print()
+print("Restaurant")
+print("")
 print("[1] Show Menu")
 print("[2] Add Item")
 print("[3] Remove Item")
 print("[4] Show Cart")
 print("[5] Check-Out")
-print()
+print("")
 
 option = input("Action: ")
 if int (option) == 1:
@@ -15,26 +15,26 @@ if int (option) == 1:
  print("[B] Item ~ Price")
  print("[C] Item ~ Price")
  print("[D] Item ~ Price")
-print()
+print(" ")
 
 option = input("Action: ")
 if int (option) == 2:
  print("Add Items:")
-Add = input("Witch Item Will You Like To Add? ")
-print()
+Add = input("Which Item Would You Like To Add? ")
+print("")
 
 option = input("Action: ")
 if int (option) == 3:
  print("Remove Items:")
-Remove = input("Witch Item Will You Like To Remove? ")
-print() 
+Remove = input("Which Item Would You Like To Remove? ")
+print("") 
 
 option = input("Action: ")
 if int (option) == 4:
- print("Show Cart:")
-print()
+ print("Show Cart: ")
+print("")
 
 option = input("Action: ")
 if int (option) == 5:
- print("Check-Out:")
-print()
+ print("Check-Out: ")
+print("")
