@@ -1,7 +1,8 @@
 print("0 = Yes")
 print("X = No")
-LGTBQ = input("")
-Child_Abuse = input("")
-Hope = input("")
-Suicide = input("")
-Depression = input("")
+
+LGTBQ
+Child Abuse
+Hope
+Suicide
+Depression
