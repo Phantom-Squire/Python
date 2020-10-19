@@ -13,4 +13,8 @@ if Start == "yes" or "Y":
      print("Okay")
 print()
 
+if Start == "No" or "N" or "no" or "n":
+  print("Okay, See Ya Next Time!")
+print()
+
 https://repl.it/@patrickmacmahon/BlackJack
