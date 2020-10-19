@@ -6,6 +6,8 @@ if Start=="yes" or "Y":
  Money = input("How Much Money Do You Have? ")
  print("Wallet: " + Money + "$")
  Bet = input("How Much Will You Like To Bet? ")
+ if (Money < Bet):
+   print("Thats More Than You Have") 
 print()
 
 https://repl.it/@patrickmacmahon/BlackJack
