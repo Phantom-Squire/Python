@@ -8,7 +8,9 @@ if Start == "yes" or "Y":
  Bet = input("How Much Will You Like To Bet? ")
  if (Money < Bet):
    print("You Do Not Have Enough Money")
-   New = input("Would Yu Like To Still Play? ")
+   New = input("Do You Still Wanna Play? ")
+   if (New == "yes" or "Y"):
+     print("Okay")
 print()
 
 https://repl.it/@patrickmacmahon/BlackJack
