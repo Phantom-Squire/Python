@@ -1,0 +1,14 @@
+import random
+
+Name1 = input("Enter Name: ");
+Name2 = input("Enter Name: ");
+Name3 = input("Enter Name: ");
+
+Names = [Name1, Name2, Name3]
+IMPOSTER = random.choice(Names)
+
+if () == IMPOSTER:
+
+
+print(Random + " Was The Imposter")
+print(Random + " Was Not The Imposter")
